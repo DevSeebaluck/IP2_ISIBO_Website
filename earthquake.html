@@ -1,0 +1,83 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>ISIbo.Index</title>
+        <meta charset="utf-8" />
+<link rel="stylesheet" href="CSS/styl.css">
+<link rel="stylesheet" href="CSS/response.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald:wght@500&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+<div>
+    <nav class="main-nav-bar">
+        <div class="">
+         <img src="images/isibo-logo.PNG" alt="Isibo Logo" class="main-logo">
+        </div>
+       
+        <ul class="nav-bar-list">
+            <li class="oswald-text"><a href="index.html"> Overview</a></li>
+            <li class="oswald-text"><a href="team.html">Our Team </a></li>
+            <li class="oswald-text"><a href="geojson.html">GeoJson</a></li>
+            <li class="oswald-text"><a href="earthquake.html">Earthquakes</a></li>
+            <li class="oswald-text"><a href="weather.html">Weather</a></li>
+            <li class="oswald-text"><a href="covid.html">COOVID-19</a></li>
+            <li class="oswald-text"><a href="population.html">Population</a></li>   
+           </ul>
+  
+    </nav>
+</div>
+<!--................................................................--> 
+
+<header id="earthquake-Header">
+  <p class="header-title oswald-text large-size-text">Earthquake Map</p>
+  
+  <div class="flex-box-row" id="map-section">
+      <div id="Map-area" class="zoom"> THE MAP API WILL BE HERE</div>
+
+      <div id="map-selection">
+        <form action="">
+            <label for="Period" class="oswald-text header-title">Choose a Period</label> <br>
+            <select name="period" id="period">
+              <option value="volvo">Past Hour</option>
+              <option value="saab">Past Day</option>
+              <option value="opel">Past Week</option>
+             
+            </select>
+            <br><br>
+            <input type="submit" value="Submit">
+          </form>
+         
+      </div>
+       <div id="Map-explanation-text-box" class="oswald-text"> <i>Variable Text <br> about the map appears here <br>according to what user chooses </i></div>
+  </div>
+  <div class="text-white oswald-text middle-size-text">How To Prepare Your Household
+      <div>
+          <ol class="text-white open-sans-text">
+            <li class="text-white"> Check for Hazards </li>
+            <li class="text-white">Fasten shelves </li>
+            <li class="text-white">Identify Safe Places Under sturdy furniture such as a heavy desk or table. </li>
+            <li class="text-white">Educate Yourself and Family Members.</li>
+            <li class="text-white">Have Disaster Supplies on Hand. </li>
+            <li class="text-white"> Develop an Emergency Communication Plan. </li>
+            <li class="text-white"> Help Your Community Get Ready.</li>
+            
+          </ol>
+      </div>
+  </div>
+</header>
+
+<footer>
+  
+    <div id="social-media-icons">
+        <img src="images/FB-logo.png" alt="facebook" class="social-media-icons">
+        <img src="images/IG-logo.png" alt="Instagram" class="social-media-icons">
+        <img src="images/twitter-logo.png" alt="Twitter" class="social-media-icons">
+        <p class="text-white open-sans-text"> &copy Copyright ISIBO 2020</p>
+    </div>
+</footer>
+
+</body>
+</html>
